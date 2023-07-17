@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.top.css" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Startinis Final</title>
+</head>
+<body>
+    <header class="header fixed-top">
+        <nav class="navbar">
+            <a class="navbar-brand col-2 pt-0 pb-0 m-0 " href="#"><img src="../swg/boruna logo.svg" alt="boruna"
+                    class="brand"></a>
+            <div class="nav-hide row col-10">
+                <ul class=" text-uppercase col-8 mb-0 nav-ul ">
+                    <li class="navLink"><a href="#">apie mus</a>
+                        <div class="underscore"></div>
+                    </li>
+                    <li class="navLink"><a href="#">projektai</a>
+                        <div class="underscore"></div>
+                    </li>
+                    <li class="navLink"><a href="#">mūsų komanda</a>
+                        <div class="underscore"></div>
+                    </li>
+                    <li class="navLink"><a href="#">kontaktai</a>
+                        <div class="underscore"></div>
+                    </li>
+                    <li class="navLink"><a href="#">es parama</a>
+                        <div class="underscore"></div>
+                    </li>
+                </ul>
+                <a class="self-service-btn navLink col-2 text-uppercase d-flex justify-content-center align-items-center"
+                    href="#">
+                    <h1 class="self-service-text p-0 m-0">savitarna</h1>
+                    <img class="arrow-r" src="../swg/arr-r.svg" alt="arrow-r">
+                </a>
+                <div class="lang-btns col-1 align-items-center">
+                    <button class="navLink pe-3">lt</button>
+                    <div class="vertical"></div>
+                    <button class="navLink ps-3">en</button>
+                </div>
+            </div>
+            <div class="col-1 d-flex justify-content-end">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="top-slider">
+            <div class="topSwiper swiper myTopSwiper">
+                <!-- <h1 class="topSlider-headline">Individualūs baldai su IŠSKIRTINUMU</h1>
+                <div class="topSlider-offer-container">
+                    <a href="#" class="topSlider-offer-link">
+                        <span>Gaukite pasiūlymĄ</span>
+                        <div class="topSlider-offer-link-underscore"></div>
+                    </a>
+                </div>
+                <div class="topSlider-hidden-container">
+                    <p class="topSlider-hidden-container-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Velit asperiores corrupti perferendis, ratione debitis, ipsa in maiores reprehenderit minus nemo
+                        odio quasi dicta quos accusantium quia nobis quod nesciunt obcaecati consequuntur! Nemo, ut
+                        aliquid pariatur perferendis id beatae, in aspernatur tempore quia officiis, vero facere quos
+                        minima porro fuga. Repellat.</p>
+                </div>
+                <button class="topSlider-expand-btn" onclick="toggleHeight()">
+                    <img src="../swg/angle r.svg" alt="">
+                </button> -->
+                <div class="topSlider-text-container">
+                    <h1 class="topSlider-headline">Individualūs baldai su IŠSKIRTINUMU</h1>
+                    <div class="topSlider-offer-container">
+                        <a href="#" class="topSlider-offer-link">
+                            <span>Gaukite pasiūlymĄ</span>
+                            <div class="topSlider-offer-link-underscore"></div>
+                        </a>
+                    </div>
+                    <div class="topSlider-hidden-container">
+                        <p class="topSlider-hidden-container-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Velit asperiores corrupti perferendis, ratione debitis, ipsa in maiores reprehenderit minus nemo
+                            odio quasi dicta quos accusantium quia nobis quod nesciunt obcaecati consequuntur! Nemo, ut
+                            aliquid pariatur perferendis id beatae, in aspernatur tempore quia officiis, vero facere quos
+                            minima porro fuga. Repellat.</p>
+                    </div>
+                    <button class="topSlider-expand-btn" onclick="toggleHeight()">
+                        <img src="../swg/angle r.svg" alt="">
+                    </button>
+                </div>
+                
+
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../images/a.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/b.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/c.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/d.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/e.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/f.jpg" alt="" class="topSwiper-slide-img"></div>
+                </div>
+                <div class="topSlider-controls-container">
+                    <div class="topSlider-controls-btn-container">
+                        <img src="../swg/angle l.svg" alt=""
+                            class="swiper-button-prev topSwiper-btn-prev top-swiper-button-prev">
+                    </div>
+                    <div class="topSlider-controls-btn-container">
+                        
+                            <img src="../swg/angle r.svg" alt=""
+                            class="swiper-button-next topSwiper-btn-next top-swiper-button-next">   
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        
+        <!-- <section class="top-slider">
+            <div class="topSwiper swiper myTopSwiper">
+                <h1 class="topSlider-headline">Individualūs baldai su IŠSKIRTINUMU</h1>
+                <div class="topSlider-offer-container">
+                    <a href="#" class="topSlider-offer-link">
+                        <span>Gaukite pasiūlymĄ</span>
+                        <div class="topSlider-offer-link-underscore"></div>
+                    </a>
+                </div>
+                <div class="topSlider-hidden-container">
+                    <p class="topSlider-hidden-container-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Velit asperiores corrupti perferendis, ratione debitis, ipsa in maiores reprehenderit minus nemo
+                        odio quasi dicta quos accusantium quia nobis quod nesciunt obcaecati consequuntur! Nemo, ut
+                        aliquid pariatur perferendis id beatae, in aspernatur tempore quia officiis, vero facere quos
+                        minima porro fuga. Repellat.</p>
+                </div>
+                <button class="topSlider-expand-btn" onclick="toggleHeight()">
+                    <img src="../swg/angle r.svg" alt="">
+                </button>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../images/a.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/b.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/c.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/d.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/e.jpg" alt="" class="topSwiper-slide-img"></div>
+                    <div class="swiper-slide"><img src="../images/f.jpg" alt="" class="topSwiper-slide-img"></div>
+                </div>
+                <div>
+                    <img src="../swg/angle r.svg" alt=""
+                        class="swiper-button-next topSwiper-btn-next top-swiper-button-next">
+                </div>
+                <div>
+                    <img src="../swg/angle l.svg" alt=""
+                        class="swiper-button-prev topSwiper-btn-prev top-swiper-button-prev">
+                </div>
+            </div>
+        </section> -->
+        <section class="vision-section">
+            <div class="vision-container">
+                <div class="vision-slider-container">
+                    <div class="vision-empty-container"></div>
+                    <div class="vision-slider-controls-container">
+                        <div class="vision-slider-prev">
+                            <img src="../swg/angle l.svg" alt=""
+                                class="swiper-button-prev vision-prev vision-swiper-button-prev">
+                        </div>
+                        <div class="vision-slider-next">
+                            <img src="../swg/angle r.svg" alt=""
+                                class="swiper-button-next vision-next vision-swiper-button-next">
+                        </div>
+                    </div>
+                    <div class="vision-slides">
+                        <div class="swiper myVisionSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1556742095-adaf2611556c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1562931715-536816af4a8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide"><img
+                                        src="https://images.unsplash.com/photo-1562932016-f3315d0a19f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-text-container">
+                    <div class="bg-image-container">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="">
+                    </div>
+                    <div class="vision-text">
+                        <div class="dash"></div>
+                        <h3>ĮGYVENDINAME <br class="vision-break">
+                            JŪSŲ VIZIJAS</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut consectetur esse quae adipisci
+                            doloremque ducimus eligendi recusandae, odit eveniet est amet possimus magnam exercitationem
+                            maxime obcaecati sequi accusantium, error, nesciunt beatae libero doloribus.</p>
+                        <div class="vision-categories">
+                            <div class="vision-category">
+                                <div class="category-dash-container">
+                                    <div class="category-dash"></div>
+                                </div>
+                                <span>PARDUOTUVĖMS</span>
+                            </div>
+                            <div class="vision-category">
+                                <div class="category-dash-container">
+                                    <div class="category-dash"></div>
+                                </div>
+                                <span>restoranams</span>
+                            </div>
+                            <div class="vision-category">
+                                <div class="category-dash-container">
+                                    <div class="category-dash"></div>
+                                </div>
+                                <span>viešai erdvei</span>
+                            </div>
+                            <div class="vision-category">
+                                <div class="category-dash-container">
+                                    <div class="category-dash"></div>
+                                </div>
+                                <span>Viešbučiams</span>
+                            </div>
+                        </div>
+                        <span>
+                            <a href="">
+                                PLAČIAU
+                            </a>
+                            <div class="more-underscore"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-section">
+            <div class="how-bg">
+                <img src="https://plus.unsplash.com/premium_photo-1661386055339-768c99658d2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1685&q=80"
+                    alt="">
+            </div>
+            <div class="how-text">
+                <div class="how-headline-container">
+                    <div class="how-headline">
+                        <div class="how-dash"></div>
+                        <h1>Kaip viskas vyksta?</h1>
+                    </div>
+                </div>
+                <div class="how-categories">
+                    <div class="how-category">
+                        <img src="../swg/susitinkame.svg" alt="">
+                        <h2>Susitinkame</h2>
+                        <div class="how-dash"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veritatis commodi non,
+                            repellendus expedita quidem dignissimos </p>
+                    </div>
+                    <div class="how-category">
+                        <img src="../swg/projektuojame.svg" alt="">
+                        <h2>Projektuojame</h2>
+                        <div class="how-dash"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis voluptatem,
+                            veritatis nemo ipsam esse praesentium rerum ratione tenetur minima sit libero nihil delectus
+                            et fuga odit eligendi? Itaque, doloremque? </p>
+                    </div>
+                    <div class="how-category">
+                        <img src="../swg/gaminame.svg" alt="">
+                        <h2>Gaminame</h2>
+                        <div class="how-dash"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ducimus alias ipsa voluptatem
+                            assumenda ad deserunt perferendis accusantium error dolores? </p>
+                    </div>
+                    <div class="how-category">
+                        <img src="../swg/montuojame.svg" alt="">
+                        <h2>Montuojame</h2>
+                        <div class="how-dash"></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nobis quidem minima illo odit
+                            fugit facere necessitatibus similique repudiandae, iure voluptatum recusandae, non nulla ad!
+                        </p>
+                    </div>
+                </div>
+                <div class="how-offer-container">
+                    <a href="#" class="how-offer-link">
+                        <span>
+                            Gaukite pasiūlymĄ
+                        </span>
+                        <div class="how-offer-link-underscore"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="xp-section">
+            <div class="xp-headline">
+                <div class="dash xp-dash"></div>
+                <h1>
+                    Tai ne tik baldai, <br class="xp-break">
+                    čia kuriamos ypatingos <br class="xp-break">
+                    patirtys
+                </h1>
+                <span>
+                    UAB Boruna kolektyvas
+                </span>
+            </div>
+            <div class="xp-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur labore sunt fuga minima sit
+                    perspiciatis maiores rem autem rerum ipsum vitae eum in, fugit vero nesciunt assumenda ut quos
+                    dolorum amet qui facilis ea! Ullam earum architecto distinctio suscipit. Fugiat consectetur
+                    dignissimos impedit quam obcaecati deserunt unde dicta voluptatem at.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugit, velit dignissimos,
+                    laborum aliquam aut magnam voluptas aspernatur alias in inventore, repellendus laboriosam sed facere
+                    perferendis quidem reprehenderit nisi quam quisquam dolorem odio voluptatem assumenda molestiae. Est
+                    rem inventore et quo dolore laudantium fugit nam architecto, nemo distinctio minus. Doloribus rerum
+                    numquam corrupti quisquam labore ab soluta, accusamus optio id.
+                </p>
+                <div class="xp-meet-container">
+                    <a href="#" class="xp-meet-link">
+                        <span>
+                            Susipažink su komanda
+                        </span>
+                        <div class="xp-meet-link-underscore"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-slider-section">
+            <div class="swiper myBottomSwiper">
+                <div class="swiper-wrapper bottom-slider-wrapper">
+                    <div class="swiper-slide bottom-swiper-slide">
+                        <div class="bottom-swiper-slide-text-container">
+                            <div class="bottom-swiper-slide-text">
+                                <div class="bottom-swiper-headline">
+                                    <h1>fossil laikrodžių parduotuvė</h1>
+                                    <span>PC "Akropolis", Vilnius</span>
+                                </div>
+                                <div class="bottom-swiper-link">
+                                    <a href="#">
+                                        <span>Žiūrėti projektą</span>
+                                        <img src="../swg/arr-r.svg" alt="arrow-r">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide bottom-swiper-slide">
+                        <div class="bottom-swiper-slide-text-container">
+                            <div class="bottom-swiper-slide-text">
+                                <div class="bottom-swiper-headline">
+                                    <h1>Restoranas takeaway</h1>
+                                    <span>PC "Ozas", Vilnius</span>
+                                </div>
+                                <div class="bottom-swiper-link">
+                                    <a href="#">
+                                        <span>Žiūrėti projektą</span>
+                                        <img src="../swg/arr-r.svg" alt="arrow-r">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1538333581680-29dd4752ddf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide bottom-swiper-slide">
+                        <div class="bottom-swiper-slide-text-container">
+                            <div class="bottom-swiper-slide-text">
+                                <div class="bottom-swiper-headline">
+                                    <h1>fossil laikrodžių parduotuvė</h1>
+                                    <span>PC "Akropolis", Vilnius</span>
+                                </div>
+                                <div class="bottom-swiper-link">
+                                    <a href="#">
+                                        <span>Žiūrėti projektą</span>
+                                        <img src="../swg/arr-r.svg" alt="arrow-r">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1557955776-857434f1c951?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide bottom-swiper-slide">
+                        <div class="bottom-swiper-slide-text-container">
+                            <div class="bottom-swiper-slide-text">
+                                <div class="bottom-swiper-headline">
+                                    <h1> Restoranas takeaway</h1>
+                                    <span>PC "Ozas", Vilnius</span>
+                                </div>
+                                <div class="bottom-swiper-link">
+                                    <a href="#">
+                                        <span>Žiūrėti projektą</span>
+                                        <img src="../swg/arr-r.svg" alt="arrow-r">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide bottom-swiper-slide">
+                        <div class="bottom-swiper-slide-text-container">
+                            <div class="bottom-swiper-slide-text">
+                                <div class="bottom-swiper-headline">
+                                    <h1>fossil laikrodžių parduotuvė</h1>
+                                    <span>PC "Akropolis", Vilnius</span>
+                                </div>
+                                <div class="bottom-swiper-link">
+                                    <a href="#">
+                                        <span>Žiūrėti projektą</span>
+                                        <img src="../swg/arr-r.svg" alt="arrow-r">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1602748828300-2843df3b3923?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-swiper-footer">
+                <div class="bottom-empty">
+                    <div class="bottom-swiper-projects-container">
+                        <a href="#" class="bottom-swiper-projects-link">
+                            <span>
+                                Visi įgyvendinti projektai
+                            </span>
+                            <div class="bottom-swiper-link-underscore"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-swiper-controls-container">
+                    <div class="bottom-swiper-prev">
+                        <img src="../swg/angle l.svg" alt=""
+                            class="swiper-button-prev bottom-prev bottom-swiper-button-prev">
+                    </div>
+                    <div class="bottom-swiper-next">
+                        <img src="../swg/angle r.svg" alt=""
+                            class="swiper-button-next bottom-next bottom-swiper-button-next">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="cont-l">
+                <div class="contact-info">
+                    <div class="dash"></div>
+                    <h3>KONTAKTAI</h3>
+                    <div class="contact-lines">
+                        <div class="contact-line">
+                            <div class="contact-icon-container">
+                                <img src="../swg/phone.svg" alt="">
+                            </div>
+                            <p>+370 687 33256</p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon-container">
+                                <img src="../swg/envelope-open-full.svg" alt="">
+                            </div>
+                            <p>info@boruna.lt</p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon-container">
+                                <img src="../swg/clock-solid(1).svg" alt="">
+                            </div>
+                            <p><span>I - V</span> 8:00 - 17:00 <span> VI, VII</span> Nedirbame</p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon-container">
+                                <img src="../swg/map-marker-alt-solid.svg" alt="">
+                            </div>
+                            <p>Panerių g. 51 Kaunas LT 48334</p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon-container">
+                            </div>
+                            <p>
+                                <a href="#">Rodyti žemėlapį</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>© 2023</p>
+                        <img src="../swg/boruna logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="cont-r">
+                <div class="b-g">
+                </div>
+                <div class="get-in-touch">
+                    <form action="">
+                        <h3>RAŠYKITE MUMS:</h3>
+                        <div class="name-mail">
+                            <div class="form-input">
+                                <label for="">Jūsų vardas:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-input">
+                                <label for="">El.paštas:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <label for="">Jūsu žinutė:</label>
+                            <input type="text">
+                        </div>
+                        <div class="policy-send">
+                            <div class="policy">
+                                <input class="form-check-input" type="checkbox">
+                                <label for="">
+                                    <br>
+                                    Sutinku su svetainėje taikoma
+                                    <br>
+                                    <a href="#">privatumo politika.</a>
+                                </label>
+                            </div>
+                            <div class="send">
+                                <button>
+                                    <h5 class="self-service-text">SIŲSTI</h5>
+                                    <img class="arrow-r" src="../swg/arr-r.svg" alt="arrow-r">
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
