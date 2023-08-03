@@ -96,7 +96,7 @@ projectLinks.forEach((link) => {
 
 // Function to redirect to vienasProjektas.html with the selected project title as a URL parameter
 function redirectToProjectPage(projectTitle) {
-  const url = `/jauna-reklama-boruna/html/vienasProjektas.html?projectTitle=${encodeURIComponent(
+  const url = `/furniture-website/html/vienasProjektas.html?projectTitle=${encodeURIComponent(
     projectTitle
   )}`;
   window.location.href = url;
