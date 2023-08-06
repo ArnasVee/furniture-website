@@ -2081,6 +2081,10 @@
         padding: 2rem 150px;
     }
 
+    .non-toggle-map-section{
+        padding: 2rem 150px;
+    }
+
     /* ---ES PARAMA--- */
     .support-title {
         padding: 0 150px;
@@ -2459,6 +2463,10 @@
         padding: 2rem 80px;
     }
 
+    .non-toggle-map-section{
+        padding: 2rem 80px;
+    }
+
     /* --ES PARAMA-- */
     .support-title {
         padding: 0 80px;
@@ -2714,5 +2722,106 @@
 @media(max-width:460px) {
     .profile {
         width: 100%;
+    }
+}
+
+@media(max-width:380px) {
+    .expandedDiv {
+        width: 95%;
+        height: 24rem;
+        margin-top: 11rem;
+    }  
+    
+    .expandedSwiper {
+        height: 60rem;
+    
+    }
+    .vision-section{
+        margin: 3rem 2rem 0 2rem;
+    }
+    .how-headline-container {
+        display: flex;
+        justify-content: start;
+    }
+    .how-text{
+        padding: 3rem 2rem;
+
+    }
+    .xp-section{
+        margin: 3rem 2rem;
+    }
+    .bottom-swiper-headline{
+        margin-left: 0.4rem;
+    }
+    .bottom-swiper-link {
+        margin-left: 0.4rem;
+
+    }
+    .bottom-swiper-link span{
+        font-size: 0.7rem;
+    }
+    .bottom-swiper-link img{
+        width: 1rem;
+    }
+    .bottom-swiper-footer{
+        margin: 3rem 2rem;
+    }
+    .contact-section{
+        margin: 0;
+    }
+    .get-in-touch{
+        margin: 0 2rem;
+    }
+    .name-mail, .message, .policy-send{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contact-info{
+        margin: 3rem 2rem;
+        padding: 0;
+    }
+    .copyright{
+        margin-top: 4rem;
+    }
+    .map-section{
+        padding: 0 2rem;
+    }
+
+    .page-title{
+        padding: 8rem 2rem 3rem 2rem;
+    }
+    .about-section{
+        padding: 0 2rem;
+    }
+    .about-container{
+        padding-bottom: 3rem;
+    }
+    .spcl-section{
+        padding: 0 2rem;
+    }
+    .customers-section{
+        padding: 3rem 2rem;
+    }
+    .projects-section ,.team-section{
+        padding: 0 2rem;
+    }
+    .profile-container, .join-section{
+        padding: 3rem 2rem;
+    }
+    .contact-full-info{
+        margin: 3rem 2rem;
+    }
+    .non-toggle-map-section{
+        padding: 3rem 2rem;
+    }
+    .support-title{
+        padding: 0 2rem;
+    }
+    .support-image, .support-image-alt{
+        margin: 0 2rem;
+    }
+    .support-text, .support-text-alt, .border-bottom-section{
+        margin: 1rem 2rem;
     }
 }
