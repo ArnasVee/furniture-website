@@ -2725,7 +2725,7 @@
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:412px) {
     .expandedDiv {
         width: 95%;
         height: 24rem;
